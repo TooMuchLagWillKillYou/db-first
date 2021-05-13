@@ -6,6 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>db-first</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: sans-serif;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+            height: 100vh;
+            padding: 5%;
+            background-color: BlanchedAlmond;
+        }
+
+        a{
+            text-decoration: none;
+        }
+        
+    </style>
 </head>
 <body>
     <div class="container">
